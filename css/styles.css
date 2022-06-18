@@ -94,6 +94,7 @@ body {
     color: var(--secondary-text-color);
     background-color: var(--accent-color);
     margin: auto;
+    border: none;
 }
 
 .subscribe-btn {
@@ -638,6 +639,11 @@ body {
     padding: 15px;
     background-color: var(--background-color-dark);
     margin-right: 10px;
+    color: var(--secondary-text-color);
+}
+
+.mailing-input:focus {
+    outline: none;
 }
 
 .mailing-input::placeholder {
@@ -731,7 +737,7 @@ body {
 }
 
 .modal-field {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .modal-label {
